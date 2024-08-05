@@ -1,0 +1,500 @@
+*{
+         /* background-color: #F4E1D2; */
+   margin: 0;
+   padding: 0;
+   font: inherit;
+   box-sizing: border-box;
+}
+
+img, picture, svg, video{
+   display: block;
+   max-width: 100%;
+}
+
+body{
+   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #FBF6E2;
+
+}
+
+h1{
+   color: #fff5eb;
+   font-size: 4.5rem;
+   font-weight: 800;
+   margin: 40px auto;
+   font-family: "Playwrite AR", cursive;
+}
+
+h2{
+   color: #131842;
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 25px;
+
+}
+
+h3{
+   color: azure;
+   font-size: 18px;
+   font-weight: bold;
+   margin-top: 20px;
+}
+
+
+/*  */
+p{
+   font-size: 18px;
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: #ECCEAE;
+   padding: 4% 5% 8% 5%; 
+   text-align: center;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(image/marketplace-1566330_1920.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.aboutMain{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(image/Women-working-in-a-fish-drying-yard-from-Nazirartek-Coxs-Bazar-Bangladesh-Photo.jpg);
+
+}
+
+.productMain{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(image/boats-2835848_1920.jpg);
+}
+
+.main-top{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto;
+
+
+}
+
+
+
+.imgLogo{
+   height: 98%;
+   width: 58%;
+}
+
+.nav{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+}
+
+.mini-nav{
+ display: flex;
+ justify-content: space-between;
+ justify-self: center;
+width: 100%;
+}
+
+.mini-nav a{
+   
+   font-size: 25px;
+   font-weight: 600;
+   text-decoration: none;
+   margin: auto;
+   color: #f9f871;
+}
+
+
+.heading-text{
+   padding: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.heading-text >p  {
+   color: azure;
+}
+
+.bestProduct{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: coral;
+   text-align: center;
+   padding: 60px 10px;
+}
+
+.productBox{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto;
+
+}
+
+.productBox >div {
+   background-color: #ffe8d1;
+   border-radius: 8px;
+   padding: 10px;
+
+}
+
+
+
+.convice, .services{
+   padding: 60px;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.services{
+   width:  80%;
+   margin: 0 auto;
+}
+
+
+.why-box{
+   width: 70%;
+   margin: 10px auto;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.top-why{
+   background-color: #af7038;
+   border-radius: 10px;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+}
+
+.top-why P{
+   color: azure;
+   font: 19px;
+   font-weight: 400;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.top-why img{
+   height: 50px;
+   width: 50px;
+   
+}
+
+
+
+footer{
+   background-color: #131842;
+   border-radius: 12px 12px 0 0;
+   padding: 60px 60px 0 60px;
+   display: flex;
+   flex-direction: column;
+}
+
+.footer h4{
+   color: azure;
+}
+
+
+
+.infobox{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.imgLogo2{
+   height: 99%;
+   width: 98%;
+   margin: 0 auto;
+}
+
+.info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.info p {
+   color: azure;
+}
+
+.info img{
+   height: 30px;
+   width: 30px;
+   filter: brightness(0) invert(1);
+   margin-bottom: 5px;
+}
+
+.info div{
+   
+}
+
+.bottomLogoBox{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.copyright{
+   display: flex;
+   justify-content: center;
+   margin: 70px  0 40px 0;
+}
+
+.copyright p {
+   color: azure;
+   font-size: 15px;
+}
+
+
+/* product */
+
+.Tproducts{
+   padding: 80px 0;
+   
+}
+
+.productssBox{
+    display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 20px;
+   width: 70%;
+   margin: 0 auto;
+
+
+}
+
+.productssBox p{
+      font-size: 20px;
+   font-weight: 500;
+   color: #1b3d2f;
+   margin-top: 10px;
+}
+
+.productimage{
+   height: auto;
+   width: auto;
+   border-radius: 4px;
+}
+
+.productssBox > div{
+   padding: 50px;
+   border-radius: 8px;
+   background-color: #c9d3bf;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+
+
+/* about us */
+
+.contactt{
+   background-color: azure;
+   padding: 40px;
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.contactbox label{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.nameBox{
+   display: flex;
+   justify-content: space-between;
+}
+
+.nameBox > div, .emailBox, .messageBox{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+
+.contactbox{
+   justify-content: space-between;
+}
+
+.nameBox  input, .emailBox input, .messageBox textarea{
+   margin-top: 20px;
+   padding: 12px 20px;
+   border-radius: 8px;
+   border: 1px solid;
+   width: 100%;
+}
+
+.Fname, .Lname{
+width: 40%;
+}
+
+.submit{
+   color: #9bf8eb;
+   padding: 10px;
+   border: none;
+   background-color: #a53c00;
+   border-radius: 5px;
+   margin: 20px 25%;
+   width: 40%;
+   font-size: 21px;
+
+}
+
+
+
+
+.aboutUs{
+   margin: 40px auto;
+   text-align: center;
+   width: 70%;
+}
+
+.aboutUs h3{
+   color: #E68369;
+   margin-bottom: 20px;
+}
+
+
+  .hambutton{
+      display: none;
+      visibility: hidden;
+   }
+
+
+@media screen and (max-width: 500px) {
+   h1{
+      font-size: 2.5rem;
+   }
+
+   p{
+      font-size: 16px;
+   }
+
+   .productBox{
+      display: grid;
+   }
+
+   .why-box{
+      display: grid;
+      gap: 20px;
+   }
+
+   .services{
+      width: 95%;
+   }
+
+   .infobox{
+      flex-direction: column;
+   }
+
+   .bottomLogoBox{
+      margin-bottom: 35px;
+   }
+
+
+   .productssBox{
+      grid-template-columns: auto auto;
+      width: 95%;
+   }
+
+   .productssBox > div{
+      padding: 10px;
+   }
+   
+   .productssBox p{
+      font-size: 17px;
+   }
+
+   .submit{
+      width: 50%;
+      margin: 20px 20%;
+   }
+
+   .mini-nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+ 
+  .hambutton{
+      display: block;
+      visibility: visible;
+   }
+
+
+   
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 350px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 29px;
+  right: 17px;
+  font-size: 36px;
+}
+
+.openbutton{
+   position: absolute;
+   top: 4%;
+   left: 87%;
+}
+
+.openbtn {
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+
+.hambutton{
+      height: 40px;
+   width: 40px;
+   filter: brightness(0) invert(1);
+}
+}
+
+
