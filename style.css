@@ -504,6 +504,11 @@ width: 40%;
 .Fname , .Lname {
    width: 100%;
 }
+
+.contactt{
+   width: 87%;
+   border-radius: 10px 10px 0 0;
+}
 }
 
 
